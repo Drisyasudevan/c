@@ -6,6 +6,7 @@ public class OddEven {
     int n;
     Scanner s=new Scanner(System.in);
     n=s.nextInt();
+    if(n!=0){
     if(n%2==0)
     {
         System.out.print("Even");
@@ -13,6 +14,10 @@ public class OddEven {
     else
     {
       System.out.print("Odd");  
+    }}
+    else
+    {
+    System.out.print("Zero");  
     }
 }
 }
